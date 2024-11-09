@@ -1,6 +1,6 @@
-# MongoDB-AI-Hackathon-Code-for-a-Cause
-Hack for Impact with AWS and LangChain
+# NVIDIA and LlamaIndex Developer Contest
 
+[NVIDIA](https://developer.nvidia.com/llamaindex-developer-contest)
 
 ## THE DECOLONIZED MIND
 
@@ -17,16 +17,31 @@ Hack for Impact with AWS and LangChain
 ### Environment Setup
 
 ```bash
-# python version -> Python 3.10.13
 python -V
+# Output -> Python 3.12.1
 ```
 
 ```bash
 # create a virtual environment 
-python -m venv mongodb-ai
+python -m venv nim-ai
 ```
 
 ```bash
 # activate the virtual enivironment
-source mongodb-ai/bin/activate
+source nim-ai/bin/activate
+```
+
+```bash
+# create a Jupyter Notebook kernel
+pip install jupyter ipykernel
+```
+
+```bash
+# add the virtual environment as a kernel for the jupyter notebook
+python -m ipykernel install --user --name=nim-ai --display-name="Py3.12-nim-ai"
+```
+
+```bash
+# verify kernel installation
+jupyter kernelspec list
 ```
