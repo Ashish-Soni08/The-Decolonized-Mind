@@ -1,8 +1,4 @@
-# NVIDIA and LlamaIndex Developer Contest
-
-[NVIDIA](https://developer.nvidia.com/llamaindex-developer-contest)
-
-## THE DECOLONIZED MIND
+# THE DECOLONIZED MIND
 
 ![The_Decolonized_Mind](/images/decolonized_mind.png)
 
