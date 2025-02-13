@@ -16,12 +16,12 @@ python -V
 
 ```bash
 # create a virtual environment 
-python -m venv microsoft-ai
+python -m venv langflow-ai
 ```
 
 ```bash
 # activate the virtual enivironment
-source microsoft-ai/bin/activate
+source langflow-ai/bin/activate
 ```
 
 ```bash
@@ -31,7 +31,7 @@ pip install jupyter ipykernel
 
 ```bash
 # add the virtual environment as a kernel for the jupyter notebook
-python -m ipykernel install --user --name=microsoft-ai --display-name="Py3.12-microsoft-ai"
+python -m ipykernel install --user --name=langflow-ai --display-name="Py3.12-langflow-ai"
 ```
 
 ```bash
