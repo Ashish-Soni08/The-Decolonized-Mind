@@ -1,7 +1,7 @@
 # Added by Author
 
 .env
-microsoft-ai/
+langflow-ai
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
